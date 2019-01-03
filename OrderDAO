@@ -1,0 +1,12 @@
+package intership2.dao;
+import java.lang.Exception;
+import java.util.ArrayList;
+
+import intership2.dao.Order;
+public interface OrderDAO {
+	public boolean addOrder(Order order) throws Exception; 
+	public boolean delOrder(String sql) throws Exception; 
+	public boolean updateOrder(String sql) throws Exception;
+	public ArrayList<Order> getOrder(String sql) throws Exception;
+
+}
