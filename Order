@@ -1,0 +1,46 @@
+# Order
+package intership2.dao;
+public class Order {
+public String Orderid;
+public String Date;
+public String Condition;
+public String Nickname;
+public String Address;
+public String Consignee;
+public String GetterOrderid() {
+	return this.Orderid;
+}
+public void SetterOrderid(String Orderid) {
+	this.Orderid=Orderid;
+}
+public String GetterDate() {
+	return this.Date;
+}
+public void SetterDate(String Date) {
+	this.Date=Date;
+}
+public String GetterCondition() {
+	return this.Condition;
+}
+public void SetterCondition(String Condition) {
+	this.Condition=Condition;
+}
+public String GetterNickname() {
+	return this.Nickname;
+}
+public void SetterNickname(String Nickname) {
+	this.Nickname=Nickname;
+}
+public String GetterAddress() {
+	return this.Address;
+}
+public void SetterAddress(String Address) {
+	this.Address=Address;
+}
+public String GetterConsignee() {
+	return this.Consignee;
+}
+public void SetterConsignee(String Consignee) {
+	this.Consignee=Consignee;
+}
+}
